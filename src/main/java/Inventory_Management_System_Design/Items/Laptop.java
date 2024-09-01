@@ -2,7 +2,7 @@ package Inventory_Management_System_Design.Items;
 
 public class Laptop extends Product{
 
-    float screenSizeInInches;
+    public float screenSizeInInches;
 
     public Laptop(String name, double price, String description, float screenSizeInInches) {
         super(name, price, description);

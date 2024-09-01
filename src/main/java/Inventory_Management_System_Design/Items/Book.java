@@ -2,7 +2,7 @@ package Inventory_Management_System_Design.Items;
 
 public class Book extends Product{
 
-    int no_of_pages;
+    public int no_of_pages;
 
     public Book(String name, double price, String description, int no_of_pages) {
         super(name, price, description);
